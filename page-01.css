@@ -1,0 +1,104 @@
+    .cover {
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(310deg, #000000 0%, #141414 21%, #171717 57.99999999999999%, #323232 100%);
+      padding: 10px;
+      animation: intro 0.5s ease-in-out;
+      z-index: 4;
+    }
+    
+    .cover-img {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      transform: translateY(75vh);
+      z-index: 1;
+      animation: intro 3s ease-in-out;
+    }
+    
+    .cover-img img{
+      position: absolute;
+      width: 80vw;
+      height: 80vh;
+      margin-left: 195px;
+      z-index: 1;
+    }
+    
+    .cover-content {
+      margin-left: 50px;
+      padding: 30px;
+      margin-top: 15em;
+      width: 70vw;
+      height: 80vh;
+      background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 10.5px;
+      z-index: 4;
+      backdrop-filter: blur(10px);
+      border-top: 2px solid rgba(255, 255, 255, 0.5);
+      border-left: 2px solid rgba(255, 255, 255, 0.5);
+      animation: intro 2s ease-in-out;
+    }
+    
+    .cover-content h1 {
+      font-size: 3.5em;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-bottom: 100px;
+      transition: 0.5s;
+      font-weight: 900;
+      animation: intro 2.5s ease-in-out;
+    }
+    
+    .cover-content h1:hover {
+      background: linear-gradient(250deg, #025b55 0%, #05585d 33.33333333333333%, #056c65 66.66666666666666%, #048d84 100%);
+      -webkit-background-clip: text;
+      color: transparent;
+      transition: all 0.5s ease-in-out;
+    }
+    
+    .cover-content p {
+      width: 200px;
+      margin-top: 900px;
+      font-size: 1em;
+      padding: 10px;
+      font-weight: 400;
+    }
+    
+    .btn-explore {
+      margin-top: 30px;
+      margin-left: 5px;
+      width: 10em;
+      height: 3.5em;
+      font-size: 1em;
+      border-radius: 10px;
+      font-weight: 600;
+      background: transparent;
+      color: white;
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      transition: 0.5s;
+      animation: intro 3.5s ease-in-out;
+    }
+    
+    .btn-explore a {
+      text-decoration: none;
+      color: white;
+      transition: 0.5s;
+    }
+    
+    .btn-explore a:hover {
+      color: black;
+      transition: all 0.5s ease-in-out;
+    }
+    
+    .btn-explore:hover {
+      background: linear-gradient(135deg, #0a64ff 0%, #0b8ed0 33.33333333333333%, #06b5bf 66.66666666666666%, #3cfff9 100%);
+      color: black;
+      border: 2px solid rgba(000, 000, 000, 0.5);
+      border-radius: 30px;
+      box-shadow: -5px 5px 50px rgba(255, 255, 255, 0.3);
+     }
+     

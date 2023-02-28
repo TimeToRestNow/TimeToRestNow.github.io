@@ -1,0 +1,92 @@
+.container-portofolio {
+  height: 100vh;
+}
+
+.section-portofolio {
+  overflow: hidden;
+}
+.container-portofolio img {
+  width: 100%;
+  position: absolute;
+  height: 110vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.main-title {
+  color: dimgray;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 7rem;
+  transform: translate(-50%, -30%);
+  animation: intro 3s ease-in-out;
+}
+
+.portofolio-txt {
+  padding: 20px;
+  width: 100vw;
+  height: 65px;
+  backdrop-filter: blur(3rem);
+  transform: translateY(685px);
+  background: transparent;
+  font-size: 2.5em;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.content-portofolio {
+  width: 100%;
+  background: rgb(24, 24, 24);
+  min-height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+
+.txt {
+  color: white;
+  margin: 20px;
+}
+.content-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.img-content {
+  width: 50vw;
+  height: 300px;
+  transition: 0.5s ease-in-out;
+}
+
+.img-content:hover {
+  opacity: 0.7;
+  padding: 50px;
+  background: white;
+  transition: all 0.5s ease-in-out;
+  box-shadow: -10px 10px 50px rgba(255, 255, 255, 0.8);
+}
+
+.text-portofolio {
+  margin: 10px;
+  color: ghostwhite;
+  padding: 2rem 20rem;
+  font-size: 1.1rem;
+}
+
+.container-portofolio .girl {
+  width: 70em;
+  height: 70em;
+  transform: translate(-100px, 780px);
+  overflow: hidden;
+}
+
+.container-portofolio .rock {
+  width: 60em;
+  height: 60em;
+}

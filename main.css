@@ -1,0 +1,33 @@
+      @keyframes intro {
+      0%{
+        opacity: 0;
+        filter: blur(5rem);
+      }
+      100%{
+        opacity: 1;
+        filter: blur(0);
+      }
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: #000;
+      overflow: hidden;
+    }
+    
+    .container {
+      animation: intro 0.5s ease-in-out;
+    }
+    
